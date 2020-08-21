@@ -1,0 +1,45 @@
+/************      Header Styles       **********/
+
+header {
+    background-color: white;
+}
+
+.logo {
+    margin: 40px auto;
+    border-bottom: solid black 3px;
+}
+
+.nav {
+    border: solid black 2px;
+    /* padding: 5px; */
+    /* text-decoration: underline; */
+}
+
+a {
+    color: black !important;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    background-color: white !important;
+}
+
+.catalogue-btn {
+    background-color: indigo;
+    color: gold;
+    margin: 5px;
+}
+
+/*  */
+
+.container {
+    max-width: 80%;
+    border-left: solid gold 10px;
+    border-right: inset gold 10px;
+    background-color: white;
+    height: 100vh;
+}
+
+body {
+    background-color: indigo;
+}
