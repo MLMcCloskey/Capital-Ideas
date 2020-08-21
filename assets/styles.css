@@ -10,7 +10,11 @@ header {
 }
 
 .nav {
-    border: solid black 2px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    /* max-width: 80%; */
+    margin: 0 auto;
+    padding: 0 10%;
     /* padding: 5px; */
     /* text-decoration: underline; */
 }
@@ -27,7 +31,7 @@ a {
 .catalogue-btn {
     background-color: indigo;
     color: gold;
-    margin: 5px;
+    margin: 10px;
 }
 
 /*  */
@@ -42,4 +46,13 @@ a {
 
 body {
     background-color: indigo;
+}
+
+
+
+/* About Us */
+
+.basicText {
+    font-size: 1rem;
+    font-weight: normal;
 }
