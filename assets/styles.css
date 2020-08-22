@@ -41,7 +41,7 @@ a {
     border-left: solid gold 10px;
     border-right: inset gold 10px;
     background-color: white;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 body {
@@ -55,4 +55,11 @@ body {
 .basicText {
     font-size: 1rem;
     font-weight: normal;
+}
+
+
+/* Clients */
+
+.logos {
+    max-width: 100%;
 }
