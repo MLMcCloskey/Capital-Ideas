@@ -1,3 +1,34 @@
+/********** Page styling  **************/
+
+body, html {
+    background-color: indigo;
+    height: 100%;
+}
+
+.container {
+    max-width: 80%;
+    border-left: solid gold 10px;
+    border-right: inset gold 10px;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    /* height: 100vh; */
+    /* min-height: 100%; */
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: -3rem;
+    /* position: relative; */
+    /* display: inline-block; */
+    /* background-color: white; */
+    z-index: -5;
+}
+
+.footerImage {
+    width: 100vw;
+}
+
 /************      Header Styles       **********/
 
 header {
@@ -34,23 +65,8 @@ a {
     margin: 10px;
 }
 
-/*  */
 
-.container {
-    max-width: 80%;
-    border-left: solid gold 10px;
-    border-right: inset gold 10px;
-    background-color: white;
-    /* height: 100vh; */
-}
-
-body {
-    background-color: indigo;
-}
-
-
-
-/* About Us */
+/************ About Us **************/
 
 .basicText {
     font-size: 1rem;
@@ -58,7 +74,7 @@ body {
 }
 
 
-/* Clients */
+/************ Clients **************/
 
 .logos {
     max-width: 100%;
